@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "doctor-ai"
+version = "0.1.0"
+description = "AI medical chatbot"
+authors = ["You"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+Flask = "3.0.3"
+Flask-Cors = "4.0.0"
+google-generativeai = "0.3.2"
+edge-tts = "6.1.4"
+SpeechRecognition = "3.10.4"
+pydub = "0.25.1"
+python-dotenv = "1.0.1"
